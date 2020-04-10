@@ -1,0 +1,557 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'ALU:inst35|clock_divider_1024:inst9|inst10'
+Slack : -13.035
+TNS   : -1029.325
+
+Type  : Slow 1200mV 85C Model Setup 'SELECT'
+Slack : -10.296
+TNS   : -123.671
+
+Type  : Slow 1200mV 85C Model Setup 'mod8count4:inst2|lab11step3:inst9|inst'
+Slack : -2.699
+TNS   : -7.612
+
+Type  : Slow 1200mV 85C Model Setup 'CLOCKBUTTON'
+Slack : -2.550
+TNS   : -2.550
+
+Type  : Slow 1200mV 85C Model Setup 'CLOCKBOARD'
+Slack : -2.547
+TNS   : -11.463
+
+Type  : Slow 1200mV 85C Model Setup 'ALU:inst35|clock_divider_1024:inst8|inst10'
+Slack : -2.341
+TNS   : -6.863
+
+Type  : Slow 1200mV 85C Model Setup 'modulo8counter:inst1|lab11step3:inst9|clock_divider_1024:inst1|inst10'
+Slack : -2.322
+TNS   : -7.038
+
+Type  : Slow 1200mV 85C Model Setup 'CLKBOARD2'
+Slack : -2.270
+TNS   : -6.807
+
+Type  : Slow 1200mV 85C Model Setup 'mod8count4:inst2|lab11step3:inst9|clock_divider_1024:inst1|inst10'
+Slack : -2.217
+TNS   : -6.478
+
+Type  : Slow 1200mV 85C Model Setup 'lab11step3:inst17|clock_divider_1024:inst1|inst10'
+Slack : -2.173
+TNS   : -6.505
+
+Type  : Slow 1200mV 85C Model Setup 'modulo8counter:inst1|lab11step3:inst9|clock_divider_1024:inst2|inst10'
+Slack : -1.108
+TNS   : -1.108
+
+Type  : Slow 1200mV 85C Model Setup 'mod8count4:inst2|lab11step3:inst9|clock_divider_1024:inst2|inst10'
+Slack : -1.062
+TNS   : -1.062
+
+Type  : Slow 1200mV 85C Model Setup 'lab11step3:inst17|clock_divider_1024:inst2|inst10'
+Slack : -1.005
+TNS   : -1.005
+
+Type  : Slow 1200mV 85C Model Setup 'modulo8counter:inst1|lab11step3:inst9|inst'
+Slack : -0.218
+TNS   : -0.553
+
+Type  : Slow 1200mV 85C Model Hold 'SELECT'
+Slack : -2.619
+TNS   : -13.054
+
+Type  : Slow 1200mV 85C Model Hold 'CLOCKBOARD'
+Slack : 0.401
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CLKBOARD2'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'lab11step3:inst17|clock_divider_1024:inst1|inst10'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'mod8count4:inst2|lab11step3:inst9|clock_divider_1024:inst1|inst10'
+Slack : 0.402
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'modulo8counter:inst1|lab11step3:inst9|clock_divider_1024:inst1|inst10'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ALU:inst35|clock_divider_1024:inst8|inst10'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ALU:inst35|clock_divider_1024:inst9|inst10'
+Slack : 0.440
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CLOCKBUTTON'
+Slack : 0.440
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'mod8count4:inst2|lab11step3:inst9|inst'
+Slack : 0.440
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'modulo8counter:inst1|lab11step3:inst9|inst'
+Slack : 0.440
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'modulo8counter:inst1|lab11step3:inst9|clock_divider_1024:inst2|inst10'
+Slack : 0.848
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'mod8count4:inst2|lab11step3:inst9|clock_divider_1024:inst2|inst10'
+Slack : 1.131
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'lab11step3:inst17|clock_divider_1024:inst2|inst10'
+Slack : 1.142
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'ALU:inst35|clock_divider_1024:inst9|inst10'
+Slack : -9.578
+TNS   : -47.636
+
+Type  : Slow 1200mV 85C Model Recovery 'SELECT'
+Slack : -5.578
+TNS   : -27.565
+
+Type  : Slow 1200mV 85C Model Removal 'SELECT'
+Slack : 1.243
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'ALU:inst35|clock_divider_1024:inst9|inst10'
+Slack : 4.644
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SELECT'
+Slack : -3.000
+TNS   : -19.518
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCKBOARD'
+Slack : -3.000
+TNS   : -18.420
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLKBOARD2'
+Slack : -3.000
+TNS   : -15.850
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCKBUTTON'
+Slack : -3.000
+TNS   : -4.285
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ALU:inst35|clock_divider_1024:inst9|inst10'
+Slack : -1.285
+TNS   : -109.225
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ALU:inst35|clock_divider_1024:inst8|inst10'
+Slack : -1.285
+TNS   : -12.850
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'lab11step3:inst17|clock_divider_1024:inst1|inst10'
+Slack : -1.285
+TNS   : -12.850
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'mod8count4:inst2|lab11step3:inst9|clock_divider_1024:inst1|inst10'
+Slack : -1.285
+TNS   : -12.850
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'modulo8counter:inst1|lab11step3:inst9|clock_divider_1024:inst1|inst10'
+Slack : -1.285
+TNS   : -12.850
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'mod8count4:inst2|lab11step3:inst9|inst'
+Slack : -1.285
+TNS   : -3.855
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'modulo8counter:inst1|lab11step3:inst9|inst'
+Slack : -1.285
+TNS   : -3.855
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'lab11step3:inst17|clock_divider_1024:inst2|inst10'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'mod8count4:inst2|lab11step3:inst9|clock_divider_1024:inst2|inst10'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'modulo8counter:inst1|lab11step3:inst9|clock_divider_1024:inst2|inst10'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Setup 'ALU:inst35|clock_divider_1024:inst9|inst10'
+Slack : -11.899
+TNS   : -941.542
+
+Type  : Slow 1200mV 0C Model Setup 'SELECT'
+Slack : -9.584
+TNS   : -113.375
+
+Type  : Slow 1200mV 0C Model Setup 'CLOCKBUTTON'
+Slack : -2.397
+TNS   : -2.397
+
+Type  : Slow 1200mV 0C Model Setup 'mod8count4:inst2|lab11step3:inst9|inst'
+Slack : -2.311
+TNS   : -6.704
+
+Type  : Slow 1200mV 0C Model Setup 'CLOCKBOARD'
+Slack : -2.246
+TNS   : -9.325
+
+Type  : Slow 1200mV 0C Model Setup 'ALU:inst35|clock_divider_1024:inst8|inst10'
+Slack : -2.050
+TNS   : -5.313
+
+Type  : Slow 1200mV 0C Model Setup 'modulo8counter:inst1|lab11step3:inst9|clock_divider_1024:inst1|inst10'
+Slack : -2.033
+TNS   : -5.545
+
+Type  : Slow 1200mV 0C Model Setup 'CLKBOARD2'
+Slack : -1.992
+TNS   : -5.334
+
+Type  : Slow 1200mV 0C Model Setup 'mod8count4:inst2|lab11step3:inst9|clock_divider_1024:inst1|inst10'
+Slack : -1.946
+TNS   : -5.044
+
+Type  : Slow 1200mV 0C Model Setup 'lab11step3:inst17|clock_divider_1024:inst1|inst10'
+Slack : -1.906
+TNS   : -5.039
+
+Type  : Slow 1200mV 0C Model Setup 'modulo8counter:inst1|lab11step3:inst9|clock_divider_1024:inst2|inst10'
+Slack : -0.944
+TNS   : -0.944
+
+Type  : Slow 1200mV 0C Model Setup 'mod8count4:inst2|lab11step3:inst9|clock_divider_1024:inst2|inst10'
+Slack : -0.910
+TNS   : -0.910
+
+Type  : Slow 1200mV 0C Model Setup 'lab11step3:inst17|clock_divider_1024:inst2|inst10'
+Slack : -0.864
+TNS   : -0.864
+
+Type  : Slow 1200mV 0C Model Setup 'modulo8counter:inst1|lab11step3:inst9|inst'
+Slack : -0.095
+TNS   : -0.189
+
+Type  : Slow 1200mV 0C Model Hold 'SELECT'
+Slack : -2.330
+TNS   : -11.606
+
+Type  : Slow 1200mV 0C Model Hold 'CLKBOARD2'
+Slack : 0.353
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CLOCKBOARD'
+Slack : 0.353
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ALU:inst35|clock_divider_1024:inst8|inst10'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'lab11step3:inst17|clock_divider_1024:inst1|inst10'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'mod8count4:inst2|lab11step3:inst9|clock_divider_1024:inst1|inst10'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'modulo8counter:inst1|lab11step3:inst9|clock_divider_1024:inst1|inst10'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ALU:inst35|clock_divider_1024:inst9|inst10'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CLOCKBUTTON'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'mod8count4:inst2|lab11step3:inst9|inst'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'modulo8counter:inst1|lab11step3:inst9|inst'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'modulo8counter:inst1|lab11step3:inst9|clock_divider_1024:inst2|inst10'
+Slack : 0.767
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'mod8count4:inst2|lab11step3:inst9|clock_divider_1024:inst2|inst10'
+Slack : 1.098
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'lab11step3:inst17|clock_divider_1024:inst2|inst10'
+Slack : 1.106
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'ALU:inst35|clock_divider_1024:inst9|inst10'
+Slack : -8.573
+TNS   : -42.593
+
+Type  : Slow 1200mV 0C Model Recovery 'SELECT'
+Slack : -4.913
+TNS   : -24.225
+
+Type  : Slow 1200mV 0C Model Removal 'SELECT'
+Slack : 1.191
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'ALU:inst35|clock_divider_1024:inst9|inst10'
+Slack : 4.347
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCKBOARD'
+Slack : -3.000
+TNS   : -18.420
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SELECT'
+Slack : -3.000
+TNS   : -17.468
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLKBOARD2'
+Slack : -3.000
+TNS   : -15.850
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCKBUTTON'
+Slack : -3.000
+TNS   : -4.285
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ALU:inst35|clock_divider_1024:inst9|inst10'
+Slack : -1.285
+TNS   : -109.225
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ALU:inst35|clock_divider_1024:inst8|inst10'
+Slack : -1.285
+TNS   : -12.850
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'lab11step3:inst17|clock_divider_1024:inst1|inst10'
+Slack : -1.285
+TNS   : -12.850
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'mod8count4:inst2|lab11step3:inst9|clock_divider_1024:inst1|inst10'
+Slack : -1.285
+TNS   : -12.850
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'modulo8counter:inst1|lab11step3:inst9|clock_divider_1024:inst1|inst10'
+Slack : -1.285
+TNS   : -12.850
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'mod8count4:inst2|lab11step3:inst9|inst'
+Slack : -1.285
+TNS   : -3.855
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'modulo8counter:inst1|lab11step3:inst9|inst'
+Slack : -1.285
+TNS   : -3.855
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'lab11step3:inst17|clock_divider_1024:inst2|inst10'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'mod8count4:inst2|lab11step3:inst9|clock_divider_1024:inst2|inst10'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'modulo8counter:inst1|lab11step3:inst9|clock_divider_1024:inst2|inst10'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Fast 1200mV 0C Model Setup 'ALU:inst35|clock_divider_1024:inst9|inst10'
+Slack : -6.665
+TNS   : -524.763
+
+Type  : Fast 1200mV 0C Model Setup 'SELECT'
+Slack : -5.484
+TNS   : -61.211
+
+Type  : Fast 1200mV 0C Model Setup 'mod8count4:inst2|lab11step3:inst9|inst'
+Slack : -0.976
+TNS   : -2.447
+
+Type  : Fast 1200mV 0C Model Setup 'CLOCKBOARD'
+Slack : -0.752
+TNS   : -1.443
+
+Type  : Fast 1200mV 0C Model Setup 'modulo8counter:inst1|lab11step3:inst9|clock_divider_1024:inst2|inst10'
+Slack : -0.687
+TNS   : -0.687
+
+Type  : Fast 1200mV 0C Model Setup 'ALU:inst35|clock_divider_1024:inst8|inst10'
+Slack : -0.660
+TNS   : -0.660
+
+Type  : Fast 1200mV 0C Model Setup 'CLKBOARD2'
+Slack : -0.645
+TNS   : -0.645
+
+Type  : Fast 1200mV 0C Model Setup 'modulo8counter:inst1|lab11step3:inst9|clock_divider_1024:inst1|inst10'
+Slack : -0.645
+TNS   : -0.645
+
+Type  : Fast 1200mV 0C Model Setup 'mod8count4:inst2|lab11step3:inst9|clock_divider_1024:inst2|inst10'
+Slack : -0.638
+TNS   : -0.638
+
+Type  : Fast 1200mV 0C Model Setup 'mod8count4:inst2|lab11step3:inst9|clock_divider_1024:inst1|inst10'
+Slack : -0.589
+TNS   : -0.589
+
+Type  : Fast 1200mV 0C Model Setup 'lab11step3:inst17|clock_divider_1024:inst2|inst10'
+Slack : -0.586
+TNS   : -0.586
+
+Type  : Fast 1200mV 0C Model Setup 'lab11step3:inst17|clock_divider_1024:inst1|inst10'
+Slack : -0.566
+TNS   : -0.566
+
+Type  : Fast 1200mV 0C Model Setup 'CLOCKBUTTON'
+Slack : -0.536
+TNS   : -0.536
+
+Type  : Fast 1200mV 0C Model Setup 'modulo8counter:inst1|lab11step3:inst9|inst'
+Slack : 0.412
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SELECT'
+Slack : -1.513
+TNS   : -7.543
+
+Type  : Fast 1200mV 0C Model Hold 'CLKBOARD2'
+Slack : 0.180
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CLOCKBOARD'
+Slack : 0.180
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ALU:inst35|clock_divider_1024:inst8|inst10'
+Slack : 0.181
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'lab11step3:inst17|clock_divider_1024:inst1|inst10'
+Slack : 0.181
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'modulo8counter:inst1|lab11step3:inst9|clock_divider_1024:inst1|inst10'
+Slack : 0.181
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'mod8count4:inst2|lab11step3:inst9|clock_divider_1024:inst1|inst10'
+Slack : 0.182
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CLOCKBUTTON'
+Slack : 0.199
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ALU:inst35|clock_divider_1024:inst9|inst10'
+Slack : 0.201
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'mod8count4:inst2|lab11step3:inst9|inst'
+Slack : 0.201
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'modulo8counter:inst1|lab11step3:inst9|inst'
+Slack : 0.201
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'modulo8counter:inst1|lab11step3:inst9|clock_divider_1024:inst2|inst10'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'lab11step3:inst17|clock_divider_1024:inst2|inst10'
+Slack : 0.475
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'mod8count4:inst2|lab11step3:inst9|clock_divider_1024:inst2|inst10'
+Slack : 0.494
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'ALU:inst35|clock_divider_1024:inst9|inst10'
+Slack : -5.157
+TNS   : -25.691
+
+Type  : Fast 1200mV 0C Model Recovery 'SELECT'
+Slack : -2.482
+TNS   : -12.281
+
+Type  : Fast 1200mV 0C Model Removal 'SELECT'
+Slack : 0.639
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'ALU:inst35|clock_divider_1024:inst9|inst10'
+Slack : 2.295
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SELECT'
+Slack : -3.000
+TNS   : -22.081
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCKBOARD'
+Slack : -3.000
+TNS   : -15.724
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLKBOARD2'
+Slack : -3.000
+TNS   : -13.560
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCKBUTTON'
+Slack : -3.000
+TNS   : -4.193
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ALU:inst35|clock_divider_1024:inst9|inst10'
+Slack : -1.000
+TNS   : -85.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ALU:inst35|clock_divider_1024:inst8|inst10'
+Slack : -1.000
+TNS   : -10.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'lab11step3:inst17|clock_divider_1024:inst1|inst10'
+Slack : -1.000
+TNS   : -10.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'mod8count4:inst2|lab11step3:inst9|clock_divider_1024:inst1|inst10'
+Slack : -1.000
+TNS   : -10.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'modulo8counter:inst1|lab11step3:inst9|clock_divider_1024:inst1|inst10'
+Slack : -1.000
+TNS   : -10.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'mod8count4:inst2|lab11step3:inst9|inst'
+Slack : -1.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'modulo8counter:inst1|lab11step3:inst9|inst'
+Slack : -1.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'lab11step3:inst17|clock_divider_1024:inst2|inst10'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'mod8count4:inst2|lab11step3:inst9|clock_divider_1024:inst2|inst10'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'modulo8counter:inst1|lab11step3:inst9|clock_divider_1024:inst2|inst10'
+Slack : -1.000
+TNS   : -1.000
+
+------------------------------------------------------------

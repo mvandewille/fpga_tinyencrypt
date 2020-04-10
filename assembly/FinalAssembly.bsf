@@ -1,0 +1,176 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 256 304)
+	(text "FinalAssembly" (rect 5 0 91 19)(font "Intel Clear" (font_size 8)))
+	(text "inst" (rect 8 267 24 284)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "CLOCKBUTTON" (rect 0 0 94 19)(font "Intel Clear" (font_size 8)))
+		(text "CLOCKBUTTON" (rect 21 27 115 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "CLOCKBOARD" (rect 0 0 84 19)(font "Intel Clear" (font_size 8)))
+		(text "CLOCKBOARD" (rect 21 43 105 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "SW8" (rect 0 0 28 19)(font "Intel Clear" (font_size 8)))
+		(text "SW8" (rect 21 59 49 78)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "DATA[7..0]" (rect 0 0 64 19)(font "Intel Clear" (font_size 8)))
+		(text "DATA[7..0]" (rect 21 75 85 94)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "SELECT" (rect 0 0 46 19)(font "Intel Clear" (font_size 8)))
+		(text "SELECT" (rect 21 91 67 110)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "CLKBOARD2" (rect 0 0 75 19)(font "Intel Clear" (font_size 8)))
+		(text "CLKBOARD2" (rect 21 107 96 126)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 112)(pt 16 112))
+	)
+	(port
+		(pt 240 32)
+		(output)
+		(text "A1" (rect 0 0 16 19)(font "Intel Clear" (font_size 8)))
+		(text "A1" (rect 203 27 219 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 240 32)(pt 224 32))
+	)
+	(port
+		(pt 240 48)
+		(output)
+		(text "B1" (rect 0 0 16 19)(font "Intel Clear" (font_size 8)))
+		(text "B1" (rect 203 43 219 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 240 48)(pt 224 48))
+	)
+	(port
+		(pt 240 64)
+		(output)
+		(text "C1" (rect 0 0 16 19)(font "Intel Clear" (font_size 8)))
+		(text "C1" (rect 203 59 219 78)(font "Intel Clear" (font_size 8)))
+		(line (pt 240 64)(pt 224 64))
+	)
+	(port
+		(pt 240 80)
+		(output)
+		(text "D1" (rect 0 0 17 19)(font "Intel Clear" (font_size 8)))
+		(text "D1" (rect 202 75 219 94)(font "Intel Clear" (font_size 8)))
+		(line (pt 240 80)(pt 224 80))
+	)
+	(port
+		(pt 240 96)
+		(output)
+		(text "E1" (rect 0 0 15 19)(font "Intel Clear" (font_size 8)))
+		(text "E1" (rect 204 91 219 110)(font "Intel Clear" (font_size 8)))
+		(line (pt 240 96)(pt 224 96))
+	)
+	(port
+		(pt 240 112)
+		(output)
+		(text "F1" (rect 0 0 15 19)(font "Intel Clear" (font_size 8)))
+		(text "F1" (rect 204 107 219 126)(font "Intel Clear" (font_size 8)))
+		(line (pt 240 112)(pt 224 112))
+	)
+	(port
+		(pt 240 128)
+		(output)
+		(text "G1" (rect 0 0 17 19)(font "Intel Clear" (font_size 8)))
+		(text "G1" (rect 202 123 219 142)(font "Intel Clear" (font_size 8)))
+		(line (pt 240 128)(pt 224 128))
+	)
+	(port
+		(pt 240 144)
+		(output)
+		(text "A0" (rect 0 0 16 19)(font "Intel Clear" (font_size 8)))
+		(text "A0" (rect 203 139 219 158)(font "Intel Clear" (font_size 8)))
+		(line (pt 240 144)(pt 224 144))
+	)
+	(port
+		(pt 240 160)
+		(output)
+		(text "B0" (rect 0 0 16 19)(font "Intel Clear" (font_size 8)))
+		(text "B0" (rect 203 155 219 174)(font "Intel Clear" (font_size 8)))
+		(line (pt 240 160)(pt 224 160))
+	)
+	(port
+		(pt 240 176)
+		(output)
+		(text "C0" (rect 0 0 16 19)(font "Intel Clear" (font_size 8)))
+		(text "C0" (rect 203 171 219 190)(font "Intel Clear" (font_size 8)))
+		(line (pt 240 176)(pt 224 176))
+	)
+	(port
+		(pt 240 192)
+		(output)
+		(text "D0" (rect 0 0 17 19)(font "Intel Clear" (font_size 8)))
+		(text "D0" (rect 202 187 219 206)(font "Intel Clear" (font_size 8)))
+		(line (pt 240 192)(pt 224 192))
+	)
+	(port
+		(pt 240 208)
+		(output)
+		(text "E0" (rect 0 0 15 19)(font "Intel Clear" (font_size 8)))
+		(text "E0" (rect 204 203 219 222)(font "Intel Clear" (font_size 8)))
+		(line (pt 240 208)(pt 224 208))
+	)
+	(port
+		(pt 240 224)
+		(output)
+		(text "F0" (rect 0 0 15 19)(font "Intel Clear" (font_size 8)))
+		(text "F0" (rect 204 219 219 238)(font "Intel Clear" (font_size 8)))
+		(line (pt 240 224)(pt 224 224))
+	)
+	(port
+		(pt 240 240)
+		(output)
+		(text "G0" (rect 0 0 17 19)(font "Intel Clear" (font_size 8)))
+		(text "G0" (rect 202 235 219 254)(font "Intel Clear" (font_size 8)))
+		(line (pt 240 240)(pt 224 240))
+	)
+	(port
+		(pt 240 256)
+		(output)
+		(text "CLOCK32[5..0]" (rect 0 0 88 19)(font "Intel Clear" (font_size 8)))
+		(text "CLOCK32[5..0]" (rect 131 251 219 270)(font "Intel Clear" (font_size 8)))
+		(line (pt 240 256)(pt 224 256)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 224 272))
+	)
+)

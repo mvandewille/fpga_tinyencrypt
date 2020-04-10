@@ -1,0 +1,26 @@
+module mux10to1 (IN0, IN1, IN2, IN3, IN4, IN5, IN6, IN7, IN8, IN9, IN10, SEL, OUT);
+
+	input [7:0] IN0, IN1, IN2, IN3, IN4, IN5, IN6, IN7, IN8, IN9, IN10;
+	input [3:0] SEL;
+	output [7:0] OUT;
+	
+	reg [7:0] OUT;
+	
+	always @ (IN0, IN1, IN2, IN3, IN4, IN5, IN6, IN7, IN8, IN9, IN10)
+	begin
+		case (SEL)
+			4'b0000 : OUT = IN0;
+			4'b0001 : OUT = IN1;
+			4'b0010 : OUT = IN2;
+			4'b0011 : OUT = IN3;
+			4'b0100 : OUT = IN4;
+			4'b0101 : OUT = IN5;
+			4'b0110 : OUT = IN6;
+			4'b0111 : OUT = IN7;
+			4'b1000 : OUT = IN8;
+			4'b1001 : OUT = IN9;
+			4'b1010 : OUT = IN10;
+		
+		endcase
+	end
+endmodule

@@ -1,0 +1,119 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2018  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 18.0.0 Build 614 04/24/2018 SJ Standard Edition
+# Date created = 23:21:03  November 30, 2018
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		FinalAssembly_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE115F29C7
+set_global_assignment -name TOP_LEVEL_ENTITY FinalAssembly
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.0.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "23:21:03  NOVEMBER 30, 2018"
+set_global_assignment -name LAST_QUARTUS_VERSION "18.0.0 Standard Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name BDF_FILE FinalAssembly.bdf
+set_global_assignment -name VERILOG_FILE mux4to1.v
+set_location_assignment PIN_Y2 -to CLOCKBOARD
+set_location_assignment PIN_N21 -to CLOCKBUTTON
+set_location_assignment PIN_AC25 -to SW8
+set_global_assignment -name BDF_FILE mod8count4.bdf
+set_global_assignment -name BDF_FILE modulo8counter.bdf
+set_global_assignment -name VERILOG_FILE mux10to1.v
+set_global_assignment -name BDF_FILE 8bitregister.bdf
+set_global_assignment -name BDF_FILE reg10file8bit.bdf
+set_global_assignment -name VERILOG_FILE output_files/encrypt_logic.v
+set_global_assignment -name BDF_FILE output_files/mod32counter.bdf
+set_global_assignment -name VERILOG_FILE decrypt_logic.v
+set_global_assignment -name VERILOG_FILE output_files/operator.v
+set_global_assignment -name BDF_FILE output_files/ALU.bdf
+set_global_assignment -name BDF_FILE output_files/mod33counter.bdf
+set_global_assignment -name VERILOG_FILE output_files/mod33logic.v
+set_location_assignment PIN_AB25 -to SELECT
+set_location_assignment PIN_H19 -to DATAOUT[7]
+set_location_assignment PIN_J19 -to DATAOUT[6]
+set_location_assignment PIN_E18 -to DATAOUT[5]
+set_location_assignment PIN_F18 -to DATAOUT[4]
+set_location_assignment PIN_F21 -to DATAOUT[3]
+set_location_assignment PIN_E19 -to DATAOUT[2]
+set_location_assignment PIN_F19 -to DATAOUT[1]
+set_location_assignment PIN_G19 -to DATAOUT[0]
+set_location_assignment PIN_AB26 -to DATA[7]
+set_location_assignment PIN_AD26 -to DATA[6]
+set_location_assignment PIN_AC26 -to DATA[5]
+set_location_assignment PIN_AB27 -to DATA[4]
+set_location_assignment PIN_AD27 -to DATA[3]
+set_location_assignment PIN_AC27 -to DATA[2]
+set_location_assignment PIN_AC28 -to DATA[1]
+set_location_assignment PIN_AB28 -to DATA[0]
+set_location_assignment PIN_G18 -to A0
+set_location_assignment PIN_F22 -to B0
+set_location_assignment PIN_E17 -to C0
+set_location_assignment PIN_L26 -to D0
+set_location_assignment PIN_L25 -to E0
+set_location_assignment PIN_J22 -to F0
+set_location_assignment PIN_H22 -to G0
+set_location_assignment PIN_M24 -to A1
+set_location_assignment PIN_Y22 -to B1
+set_location_assignment PIN_W21 -to C1
+set_location_assignment PIN_W22 -to D1
+set_location_assignment PIN_W25 -to E1
+set_location_assignment PIN_U23 -to F1
+set_location_assignment PIN_U24 -to G1
+set_global_assignment -name BDF_FILE output_files/tmp.bdf
+set_global_assignment -name VERILOG_FILE output_files/operator2.v
+set_global_assignment -name BDF_FILE output_files/regtest.bdf
+set_location_assignment PIN_AG14 -to CLKBOARD2
+set_location_assignment PIN_G21 -to CLOCK32[5]
+set_location_assignment PIN_G22 -to CLOCK32[4]
+set_location_assignment PIN_G20 -to CLOCK32[3]
+set_location_assignment PIN_H21 -to CLOCK32[2]
+set_location_assignment PIN_E24 -to CLOCK32[1]
+set_location_assignment PIN_E25 -to CLOCK32[0]
+set_location_assignment PIN_G16 -to WA_OUT[2]
+set_location_assignment PIN_H15 -to WA_OUT[3]
+set_location_assignment PIN_G15 -to WA_OUT[1]
+set_location_assignment PIN_F15 -to WA_OUT[0]
+set_location_assignment PIN_G17 -to SELOUT
+set_global_assignment -name VERILOG_FILE fsm_encrypt.v
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VERILOG_FILE operator2.v
+set_global_assignment -name VERILOG_FILE operator.v
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

@@ -1,0 +1,19 @@
+module logicBlock(  num1, num2, op_num, new_num );
+
+	input [7:0] num1, num2;
+	input [2:0] op_num;
+	output [7:0] new_num;
+	reg [7:0] new_num;
+	
+	always @ ( new_num )
+		case( op_num )
+			0: new_num = num1;
+			1: new_num = num1<<4;
+			2: new_num = num1>>5;
+			3: new_num = num1 + num2;
+			4: new_num = num1 - num2;
+			5: new_num = num1 ^ num2;
+			default: new_num = num1;
+		endcase
+	end
+endmodule
